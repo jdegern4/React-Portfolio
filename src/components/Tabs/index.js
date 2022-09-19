@@ -3,6 +3,7 @@ import AboutMe from '../About-Me';
 import Portfolio from '../Portfolio';
 import ContactForm from '../Contact';
 import Resume from '../Resume';
+import TabContent from "../Tab-Content";
 
 function Tabs({ currentTab }) {
     const renderTab = () => {
@@ -19,6 +20,12 @@ function Tabs({ currentTab }) {
                 return <AboutMe/>;
         }
     }
+
+    return (
+        <div>
+            <TabContent>{renderTab()}</TabContent>
+        </div>
+    )
 }
 
 export default Tabs;

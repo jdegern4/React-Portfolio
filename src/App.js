@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
-import Nav from "../src/components/Nav";
-import Header from "../src/components/Header";
-import Footer from "../src/components/Footer";
-import Tabs from "../src/components/Tabs";
+import './App.css';
+import Nav from '../src/components/Nav';
+import Header from '../src/components/Header';
+import Footer from '../src/components/Footer';
+import Tabs from '../src/components/Tabs';
 
 function App() {
   const [tabs] = useState([

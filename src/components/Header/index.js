@@ -9,6 +9,6 @@ function Header(props) {
             {props.children}
         </div>
     )
-}
+};
 
 export default Header;

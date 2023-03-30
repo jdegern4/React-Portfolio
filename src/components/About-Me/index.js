@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
     return (
         <section>
-          Full-stack web developer utilizing background in music to bring strong creativity and problem-solving skills to all aspects of web applications. Always keeps efficiency, readability, responsiveness, and intuitive design at forefront of priorities for source code and end products alike. Quick learner and amicable and communicative collaborator who values strong chemistry in workgroups to maximize value of deliverables.  
+          I am a full-stack web developer utilizing my background in music to bring strong creativity and problem-solving skills to all aspects of web applications. I always keep efficiency, readability, responsiveness, and intuitive design at forefront of priorities for source code and end products alike. I am a quick learner and amicable and communicative collaborator who values strong chemistry in workgroups to maximize value of deliverables.  
         </section>
     )
 }

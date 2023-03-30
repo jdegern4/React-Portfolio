@@ -10,11 +10,11 @@ function Nav(props) {
     return (
         <nav>
           <ul>
-            {tabs.map((Tabs) => {
+            {tabs.map((Tabs) => (
               <li className={`${currentTab.name === Tabs.name && "highlight"}`} key={Tabs.name}>
                 <span onClick={() => setCurrentTab(Tabs)}>{Tabs.name}</span>
               </li>
-            })}
+            ))}
           </ul>
         </nav>
     );

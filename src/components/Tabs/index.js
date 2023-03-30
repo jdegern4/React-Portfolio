@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from '../About-Me';
+import About from '../About-Me';
 import Portfolio from '../Portfolio';
 import ContactForm from '../Contact';
 import Resume from '../Resume';
@@ -8,8 +8,8 @@ import TabContent from "../Tab-Content";
 function Tabs({ currentTab }) {
     const renderTab = () => {
         switch (currentTab.name) {
-            case "AboutMe":
-                return <AboutMe/>;
+            case "About":
+                return <About/>;
             case "Portfolio":
                 return <Portfolio/>;
             case "Contact":
@@ -17,7 +17,7 @@ function Tabs({ currentTab }) {
             case "Resume":
                 return <Resume/>;
             default:
-                return <AboutMe/>;
+                return <About/>;
         }
     }
 

@@ -8,7 +8,7 @@ import Tabs from '../src/components/Tabs';
 function App() {
   const [tabs] = useState([
     {
-      name: "AboutMe",
+      name: "About Me",
     },
     {
       name: "Contact",
@@ -29,8 +29,8 @@ function App() {
         <Header>
           <Nav
             tabs={tabs}
-            currentTab={currentTab}
             setCurrentTab={setCurrentTab}
+            currentTab={currentTab}
           ></Nav>
         </Header>
       </header>

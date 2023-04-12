@@ -24,8 +24,8 @@ function App() {
   const [currentTab, setCurrentTab] = useState(tabs[0]);
 
   return (
-    <div className='App'>
-      <header className='App-header'>
+    <div>
+      <header>
         <Header>
           <Nav
             tabs={tabs}
@@ -34,7 +34,7 @@ function App() {
           ></Nav>
         </Header>
       </header>
-      <main>
+      <main className="components">
         <Tabs currentTab={currentTab}></Tabs>
       </main>
       <Footer></Footer>

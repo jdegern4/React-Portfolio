@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <ul>
-                <li>Copyright 2022 Jordan Degerness</li>
+                <li>© 2023 Jordan Degerness</li>
                 <li>
                     <a href="https://www.linkedin.com/in/jordan-degerness/" alt="LinkedIn">LinkedIn</a>
                 </li>

@@ -85,7 +85,8 @@ nav ul li {
 }
 
 .project-title {
-  margin-bottom: 2px;
+  font-size: large;
+  margin-bottom: 20px;
   text-align: center;
 }
 

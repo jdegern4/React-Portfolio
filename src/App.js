@@ -11,13 +11,13 @@ function App() {
       name: "About Me",
     },
     {
-      name: "Contact",
-    },
-    {
       name: "Portfolio",
     },
     {
       name: "Resume",
+    },
+    {
+      name: "Contact",
     },
   ]);
 

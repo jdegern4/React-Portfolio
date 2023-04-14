@@ -1,8 +1,8 @@
 :root {
-  --first-color: #f5ebe0;
-  --second-color: #d5bdaf;
-  --third-color: #e3d5ca;
-  --fourth-color: #e07a5f;
+  --primary-color: #6ea4bf;
+  --secondary-color: #c2efeb;
+  --tertiary-color: #ecfee8;
+  --quaternary-color: #41337a;
 }
 
 html, body {
@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
 }
@@ -30,7 +30,7 @@ code {
 
 /* Header & Navigation */
 header {
-  background-color: var(--third-color);
+  background-color: var(--tertiary-color);
   text-align: center;
 }
 
@@ -40,29 +40,30 @@ h2 {
 }
 
 h2 a {
-  color: var(--fourth-color);
+  color: var(--quaternary-color);
   text-decoration: none;
   font-size: 1.5em;
 }
 
 a:visited {
-  color: var(--fourth-color);
+  color: var(--quaternary-color);
 }
 
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
+  justify-content: space-evenly;
+  padding: 10px 30px;
 }
 
 nav ul li {
   padding: 10px;
+  cursor: pointer;
 }
 
 .highlight {
-  background-color: var(--second-color);
+  background-color: var(--secondary-color);
   padding: 5px;
   border-radius: 5px;
 }
@@ -91,7 +92,8 @@ nav ul li {
   height: auto;
   border-width: 10px;
   border-style: groove;
-  border-color: var(--third-color);
+  border-color: var(--tertiary-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .introduction p {
@@ -117,8 +119,15 @@ nav ul li {
 }
 
 .project-img {
+  border-radius: 25px;
   width: 100%;
   margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-img:hover {
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 /* Contact */
@@ -136,13 +145,13 @@ nav ul li {
   width: 100%;
   font-size: 16px;
   padding: 5px;
-  border: 1px solid var(--second-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
 }
 
 .btn {
-  background-color: var(--third-color);
-  border: 1px solid var(--second-color);
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
   padding: 5px 10px;
   font-size: 16px;
@@ -150,13 +159,12 @@ nav ul li {
 
 /* Footer */
 footer {
-  margin-right: 10px;
   margin-top: 50px;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
 }
 
 footer ul {
@@ -169,7 +177,7 @@ footer ul {
 }
 
 footer ul li a {
-  color: var(--fourth-color);
+  color: var(--quaternary-color);
   text-decoration: none;
 }
 

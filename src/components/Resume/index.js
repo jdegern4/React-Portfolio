@@ -10,6 +10,7 @@ function Resume() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript ES5 & ES6</li>
+                <li>React</li>
                 <li>Node.js</li>
                 <li>jQuery</li>
                 <li>SQL/noSQL/GraphQL</li>

@@ -72,6 +72,32 @@ nav ul li {
   padding: 50px 30px;
 }
 
+/* About Me */
+.introduction {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+}
+
+.headshot {
+  max-width: 40%;
+  padding: 20px;
+  float: left;
+}
+
+.headshot img {
+  max-width: 100%;
+  height: auto;
+  border-width: 10px;
+  border-style: groove;
+  border-color: var(--third-color);
+}
+
+.introduction p {
+  padding: 20px;
+}
+
 /* Portfolio */
 .project-flex {
   display: flex;
@@ -138,7 +164,8 @@ footer ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  padding-right: 20px;
+  gap: 20px;
 }
 
 footer ul li a {

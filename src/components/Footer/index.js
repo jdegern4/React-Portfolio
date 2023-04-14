@@ -6,10 +6,10 @@ function Footer() {
             <ul>
                 <li>© 2023 Jordan Degerness</li>
                 <li>
-                    <a href="https://www.linkedin.com/in/jordan-degerness/" alt="LinkedIn">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/jordan-degerness/" alt="Jordan's LinkedIn" target="_blank" rel="noreferrer">LinkedIn</a>
                 </li>
                 <li>
-                    <a href="https://github.com/jdegern4" alt="GitHub">GitHub</a>
+                    <a href="https://github.com/jdegern4" alt="Jordan's GitHub" target="_blank" rel="noreferrer">GitHub</a>
                 </li>
             </ul>
         </footer>

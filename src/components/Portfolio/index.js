@@ -49,6 +49,12 @@ const Portfolio = () => {
             <p className="project-title"><strong>Social Network API</strong></p>
             </a>
           </span>
+          <span>
+            <img className="project-img"
+            src={require(`../../assets/SNAPI.png`)}
+            alt={`Social Network API`}
+            ></img>
+          </span>
         </div>
       </div>
     </section>

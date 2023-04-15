@@ -39,7 +39,7 @@ function ContactForm() {
     return (
         <section>
             <h1>Contact</h1>
-            <form id="contact-form" className="contact-flex" onSubmit={handleSubmit}>
+            <form id="contact-form" className="contact-form-flex" onSubmit={handleSubmit}>
                 <div className="field-padding">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" dafaultValue={name} onBlur={handleChange} className="contact-field" />

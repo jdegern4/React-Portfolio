@@ -11,7 +11,7 @@ function Resume() {
         >
           <big>Download Resume</big>
         </a>
-        <h3>I am familiar with:</h3>
+        <h3>I am skilled in:</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -32,7 +32,7 @@ function Resume() {
       <div className="dog-photo">
         <img
           src={require(`../../assets/Tika.jpg`)}
-          alt={`Jordan and Tika`}
+          alt={`Jordan and Tika, the dog`}
         ></img>
       </div>
     </section>

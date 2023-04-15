@@ -16,8 +16,8 @@ function AboutMe() {
         applications. <br></br><br></br>I always keep efficiency, readability,
         responsiveness, and intuitive design at forefront of priorities for
         source code and end products alike. <br></br><br></br>I am a quick learner and
-        amicable and communicative collaborator who values strong chemistry in
-        workgroups to maximize value of deliverables.
+        an amicable and communicative collaborator who values strong chemistry in
+        workgroups to maximize the value of our deliverables.
       </p>
     </section>
   );

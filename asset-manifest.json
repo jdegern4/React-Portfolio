@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/React-Portfolio/static/js/main.0d077c9d.js",
+    "main.css": "/React-Portfolio/static/css/main.c61263c3.css",
+    "main.js": "/React-Portfolio/static/js/main.8d5efdfd.js",
     "static/js/787.0ce7d14f.chunk.js": "/React-Portfolio/static/js/787.0ce7d14f.chunk.js",
+    "static/media/Jordan Degerness headshot.png": "/React-Portfolio/static/media/Jordan Degerness headshot.511351dfdf54b438c9e1.png",
+    "static/media/DtDDT.png": "/React-Portfolio/static/media/DtDDT.9af05e7e83a4c6223c19.png",
+    "static/media/Julias-Children.jpg": "/React-Portfolio/static/media/Julias-Children.42718d3c25155ec4819e.jpg",
+    "static/media/Tika.jpg": "/React-Portfolio/static/media/Tika.6cc6fabe9e878f4e36ac.jpg",
+    "static/media/GFAFC.PNG": "/React-Portfolio/static/media/GFAFC.51fa6242d6e982c371f5.PNG",
+    "static/media/Milo.jpg": "/React-Portfolio/static/media/Milo.5a66e424619782638372.jpg",
+    "static/media/SNAPI.png": "/React-Portfolio/static/media/SNAPI.3fad0ba4bcd41a6bccac.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.073c9b0a.css.map": "/React-Portfolio/static/css/main.073c9b0a.css.map",
-    "main.0d077c9d.js.map": "/React-Portfolio/static/js/main.0d077c9d.js.map",
+    "main.c61263c3.css.map": "/React-Portfolio/static/css/main.c61263c3.css.map",
+    "main.8d5efdfd.js.map": "/React-Portfolio/static/js/main.8d5efdfd.js.map",
     "787.0ce7d14f.chunk.js.map": "/React-Portfolio/static/js/787.0ce7d14f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0d077c9d.js"
+    "static/css/main.c61263c3.css",
+    "static/js/main.8d5efdfd.js"
   ]
 }

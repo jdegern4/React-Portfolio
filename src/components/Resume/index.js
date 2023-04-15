@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <section className="RC-flex">
-      <div className="flex-column">
+      <div>
         <a
           href="https://docs.google.com/document/d/1Y1FyZZZQn1q20k62DcSfKXLuWPbcgvaTVeCEUvc90gs/edit?usp=sharing"
           target="_blank"
@@ -28,6 +28,7 @@ function Resume() {
           <li>Familiar with CI/CD, Agile, Scrum, and Kanban</li>
         </ul>
       </div>
+      <br></br>
       <div className="dog-photo">
         <img
           src={require(`../../assets/Tika.jpg`)}

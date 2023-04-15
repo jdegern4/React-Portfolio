@@ -141,20 +141,21 @@ nav ul li:hover {
 /* Resume and Contact */
 .RC-flex {
   max-width: 100%;
+  max-height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
-  padding: 20px 20px;
+  padding-bottom: 20px;
 }
 
 .flex-column {
-  max-width: 100%;
+  width: 100%;
   padding: 10px;
 }
 
 .dog-photo {
   max-width: 100%;
+  height: auto;
   padding: 20px;
 }
 
@@ -240,7 +241,7 @@ footer ul li a {
 .project-col {
   width: 45%;
 }
-}
+
 
 /* Resume and Contact */
 .RC-flex {
@@ -253,12 +254,12 @@ footer ul li a {
 }
 
 .flex-column {
-  max-width: 40%;
+  max-width: 50%;
   padding: 20px;
 }
 
 .dog-photo {
-  max-width: 40%;
+  max-width: 50%;
   padding: 20px;
-  float: right;
+}
 }

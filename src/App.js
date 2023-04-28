@@ -1,41 +1,31 @@
-import React, { useState } from "react";
-import './App.css';
-import Nav from '../src/components/Nav';
-import Header from '../src/components/Header';
-import Footer from '../src/components/Footer';
-import Tabs from '../src/components/Tabs';
+import React from "react";
+import "./App.css";
+import Nav from "../src/components/Nav";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
+import { Navigate, Route, Routes } from "react-router-dom";
+import AboutMe from "./components/About-Me";
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
+import ContactForm from "./components/Contact";
 
 function App() {
-  const [tabs] = useState([
-    {
-      name: "About Me",
-    },
-    {
-      name: "Portfolio",
-    },
-    {
-      name: "Resume",
-    },
-    {
-      name: "Contact",
-    },
-  ]);
-
-  const [currentTab, setCurrentTab] = useState(tabs[0]);
-
   return (
     <div>
-      <header>
-        <Header>
-          <Nav
-            tabs={tabs}
-            setCurrentTab={setCurrentTab}
-            currentTab={currentTab}
-          ></Nav>
-        </Header>
-      </header>
+      <Header>
+        <Nav />
+      </Header>
       <main className="components">
-        <Tabs currentTab={currentTab}></Tabs>
+        <Routes>
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<ContactForm />} />
+          <Route
+            path="*"
+            element={<Navigate to="/about-me" replace={true} />}
+          />
+        </Routes>
       </main>
       <Footer></Footer>
     </div>

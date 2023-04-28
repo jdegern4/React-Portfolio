@@ -45,9 +45,9 @@ function ContactForm() {
       <div>
         <h1>Get In Touch</h1>
         <form
-        action="https://formsubmit.co/jordan.degerness@gmail.com"
-        method="POST"  
-        id="contact-form"
+          action="https://formsubmit.co/jordan.degerness@gmail.com"
+          method="POST"
+          id="contact-form"
           className="contact-form-flex"
           onSubmit={handleSubmit}
         >
@@ -56,7 +56,7 @@ function ContactForm() {
             <input
               type="text"
               name="name"
-              dafaultValue={name}
+              defaultValue={name}
               onBlur={handleChange}
               className="contact-field"
             />

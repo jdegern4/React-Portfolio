@@ -1,23 +1,42 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function Nav(props) {
-    const {
-        tabs = [],
-        setCurrentTab,
-        currentTab
-    } = props;
+const links = [
+  {
+    name: "About Me",
+    path: "/about-me",
+  },
+  {
+    name: "Portfolio",
+    path: "/portfolio",
+  },
+  {
+    name: "Resume",
+    path: "/resume",
+  },
+  {
+    name: "Contact",
+    path: "/contact",
+  },
+];
 
-    return (
-        <nav>
-          <ul>
-            {tabs.map((Tabs) => (
-              <li className={`${currentTab.name === Tabs.name && "highlight"}`} key={Tabs.name}>
-                <span onClick={() => setCurrentTab(Tabs)}>{Tabs.name}</span>
-              </li>
-            ))}
-          </ul>
-        </nav>
-    );
+function Nav() {
+  return (
+    <nav>
+      <ul>
+        {links.map((link) => (
+          <li key={link.name}>
+            <NavLink
+              to={link.path}
+              className={({ isActive }) => isActive && "highlight"}
+            >
+              {link.name}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
 }
 
 export default Nav;
